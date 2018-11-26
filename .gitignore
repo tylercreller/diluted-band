@@ -1,0 +1,8 @@
+node_modules
+
+# Output File for Babel
+public/scripts/app.js
+
+.vscode/settings.json
+
+yarn.lock
