@@ -4,3 +4,5 @@ node_modules
 public/scripts/app.js
 
 .vscode/settings.json
+
+public/bundle.js
