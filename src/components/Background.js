@@ -10,8 +10,6 @@ const BgImageStyles = {
 	height: '100%',
 	filter: 'blur(5px)'
 };
-const Background = () => {
-	return <div style={BgImageStyles} />;
-};
+const Background = () => <div style={BgImageStyles} />;
 
 export default Background;
