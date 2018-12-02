@@ -8,7 +8,7 @@ Install Dependencies
 yarn install
 ```
 
-#### Running The Boilerplate
+#### Developing locally
 
 In your CLI run the follow (order should not matter)
 
@@ -21,3 +21,5 @@ This will set a watch on the src/app.js folder and output the translated code to
 ```
 yarn run serve
 ```
+
+A browser should automatically open with the app!
