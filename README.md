@@ -13,13 +13,7 @@ yarn install
 In your CLI run the follow (order should not matter)
 
 ```
-yarn run build
+yarn run dev-server
 ```
 
-This will set a watch on the src/app.js folder and output the translated code to public/scripts/app.js. Then run the following...
-
-```
-yarn run serve
-```
-
-A browser should automatically open with the app!
+In the output you should see a Project is running at localhost:<someport>. Navigate to that page and see the site.
