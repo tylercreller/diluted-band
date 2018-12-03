@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Background from './components/Background';
-import Content from './components/Content';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Background from './components/Background/Background';
+import BodyContent from './components/BodyContent/BodyContent';
 
 const Layout = () => (
 	<div>
 		<Background />
 		<Header />
-		<Content />
+		<BodyContent />
 		<Footer />
 	</div>
 );

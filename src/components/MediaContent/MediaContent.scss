@@ -1,0 +1,23 @@
+@import '../../shared/css/variables.scss';
+
+.media-content {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	.media-content__video {
+		min-width: 711px;
+		margin: 0px 0px 0px $gutter;
+		box-shadow: rgba(0, 0, 0, 0.75) 0px 13px 55px 24px;
+	}
+
+	.media-content__album-cover {
+		height: 480px;
+		width: 480px;
+		box-shadow: rgba(0, 0, 0, 0.75) 0px 13px 55px 24px;
+		margin: 0px $gutter 0px 0px;
+	}
+}

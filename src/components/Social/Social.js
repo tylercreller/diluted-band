@@ -1,20 +1,8 @@
 import React from 'react';
+import './Social.scss';
 
-const SocialContainerStyles = {
-	backgroundColor: '#a51d21',
-	paddingTop: '30px',
-	paddingBottom: '30px'
-};
-const SocialIconsStyles = {
-	backgroundColor: '#a51d21',
-	display: 'flex',
-	justifyContent: 'center'
-};
-const SocialIconStyles = {
-	padding: '15px'
-};
 const Social = () => (
-	<div id="social" style={SocialContainerStyles}>
+	<div id="social" className="social">
 		<h1
 			style={{
 				color: 'white',
@@ -24,8 +12,8 @@ const Social = () => (
 		>
 			Follow Us
 		</h1>
-		<div style={SocialIconsStyles}>
-			<div style={SocialIconStyles}>
+		<div className="social__icons-container">
+			<div className="social__icons-container__icon">
 				<a href="https://www.instagram.com/dilutedband/" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +25,7 @@ const Social = () => (
 					</svg>
 				</a>
 			</div>
-			<div style={SocialIconStyles}>
+			<div className="social__icons-container__icon">
 				<a href="https://www.facebook.com/DilutedBand" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +37,7 @@ const Social = () => (
 					</svg>
 				</a>
 			</div>
-			<div style={SocialIconStyles}>
+			<div className="social__icons-container__icon">
 				<a href="https://twitter.com/dilutedband" target="_blank">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +49,7 @@ const Social = () => (
 					</svg>
 				</a>
 			</div>
-			<div style={SocialIconStyles}>
+			<div className="social__icons-container__icon">
 				<a
 					href="https://www.youtube.com/channel/UCCCIKJVlmfTYbZIqvoiupiw"
 					target="_blank"

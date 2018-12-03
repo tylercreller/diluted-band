@@ -1,0 +1,17 @@
+@import '../../shared/css/variables.scss';
+
+.social {
+	background-color: $lbRed;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	.social__icons-container {
+		background-color: $lbRed;
+		display: flex;
+		justify-content: center;
+	}
+
+	.social__icons-container__icon {
+		padding: 15px;
+	}
+}

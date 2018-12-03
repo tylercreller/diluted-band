@@ -9,9 +9,24 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				loader: 'babel-loader',
 				test: /\.js$/,
+				loader: 'babel-loader',
 				exclude: /node_modules/
+			},
+			{
+				test: /\.scss$/,
+				use: ['style-loader', 'css-loader', 'sass-loader']
+			},
+			{
+				test: /\.(png|jpg|gif)$/i,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 8192
+						}
+					}
+				]
 			}
 		]
 	},

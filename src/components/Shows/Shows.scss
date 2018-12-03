@@ -1,0 +1,17 @@
+@import '../../shared/css/mixins.scss';
+@import '../../shared/css/variables.scss';
+
+.shows {
+	padding-top: 30px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+
+	background-color: black;
+	.shows__section-header {
+		@include section-header;
+	}
+
+	.shows__songkick-widget {
+		margin: 0 $gutter;
+	}
+}
