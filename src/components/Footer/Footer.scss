@@ -1,15 +1,15 @@
-@import '../../shared/css/variables.scss';
+@import '../../shared/styles/variables';
 
 .footer {
 	// background-color: $lbRed;
 	background-color: #000000;
-	height: 50px;
+	height: 5rem;
 	font-family: sans-serif;
 	text-align: center;
 	color: white;
-	font-size: 14px;
+	font-size: 1.4rem;
+}
 
-	.footer__author {
-		padding-top: 10px;
-	}
+.footer__author {
+	padding-top: 1rem;
 }

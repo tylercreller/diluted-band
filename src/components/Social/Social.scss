@@ -1,17 +1,15 @@
-@import '../../shared/css/variables.scss';
+@import '../../shared/styles/variables';
 
 .social {
 	background-color: $lbRed;
-	padding-top: 30px;
-	padding-bottom: 30px;
-
-	.social__icons-container {
-		background-color: $lbRed;
-		display: flex;
-		justify-content: center;
-	}
-
-	.social__icons-container__icon {
-		padding: 15px;
-	}
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.social__icons-container {
+	background-color: $lbRed;
+	display: flex;
+	justify-content: center;
+}
+.social__icons-container__icon {
+	padding: 1.5rem;
 }

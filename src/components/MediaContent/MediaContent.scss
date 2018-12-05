@@ -1,4 +1,4 @@
-@import '../../shared/css/variables.scss';
+@import '../../shared/styles/variables';
 
 .media-content {
 	margin: 0 auto;
@@ -7,17 +7,17 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+}
 
-	.media-content__video {
-		min-width: 711px;
-		margin: 0px 0px 0px $gutter;
-		box-shadow: rgba(0, 0, 0, 0.75) 0px 13px 55px 24px;
-	}
+.media-content__video {
+	min-width: 71.1rem;
+	margin: 0 0 0 $gutter;
+	box-shadow: $boxShadow;
+}
 
-	.media-content__album-cover {
-		height: 480px;
-		width: 480px;
-		box-shadow: rgba(0, 0, 0, 0.75) 0px 13px 55px 24px;
-		margin: 0px $gutter 0px 0px;
-	}
+.media-content__album-cover {
+	height: 48rem;
+	width: 48rem;
+	box-shadow: $boxShadow;
+	margin: 0 $gutter 0 0;
 }

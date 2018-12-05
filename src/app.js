@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Background from './components/Background/Background';
 import BodyContent from './components/BodyContent/BodyContent';
+import './shared/styles/_base.scss';
 
 const Layout = () => (
 	<div>
@@ -14,5 +15,4 @@ const Layout = () => (
 	</div>
 );
 
-document.body.style.backgroundColor = '#211f20';
 ReactDOM.render(<Layout />, document.getElementById('app'));

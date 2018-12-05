@@ -1,30 +1,30 @@
-@import '../../shared/css/variables.scss';
+@import '../../shared/styles/variables';
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
 
-	.header__logo {
-		width: 200px;
-		padding: 35px 50px 35px $gutter;
-	}
-
-	.header__nav-container {
-		text-align: center;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 $gutter 0 50px;
-		width: 450px;
-		a {
-			&:hover {
-				color: $lbRed;
-			}
-			color: white;
-			font-family: 'Josefin Sans', Times, serif;
-			font-size: 20px;
-			text-decoration: none;
+.header__nav-container {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 $gutter 0 5rem;
+	width: 45rem;
+	a {
+		&:hover {
+			color: $lbRed;
 		}
+		color: white;
+		font-family: 'Josefin Sans', Times, serif;
+		font-size: 2rem;
+		text-decoration: none;
 	}
+}
+
+.header__logo {
+	width: 20rem;
+	padding: 3.5rem 5rem 3.5rem $gutter;
 }

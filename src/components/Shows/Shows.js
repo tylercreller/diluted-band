@@ -12,6 +12,7 @@ const Shows = () => (
 				data-detect-style="true"
 				data-font-color="#e6e0e0"
 				data-background-color="transparent"
+				data-font-size="100%"
 			/>
 		</div>
 	</div>
