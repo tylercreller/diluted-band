@@ -1,0 +1,12 @@
+.container {
+	margin: 0 auto;
+	padding: 0 $gutter;
+}
+
+.container--black {
+	background: black;
+}
+
+.container--red {
+	background: $lb-red;
+}

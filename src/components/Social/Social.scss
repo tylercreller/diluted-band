@@ -1,12 +1,11 @@
-@import '../../shared/styles/variables';
+@import '../../styles/base/settings';
 
 .social {
-	background-color: $lbRed;
+	background-color: $lb-red;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 .social__icons-container {
-	background-color: $lbRed;
 	display: flex;
 	justify-content: center;
 }

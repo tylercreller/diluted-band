@@ -1,4 +1,4 @@
-@import '../../shared/styles/variables';
+@import '../../styles/base/settings';
 
 .media-content {
 	margin: 0 auto;
@@ -11,13 +11,11 @@
 
 .media-content__video {
 	min-width: 71.1rem;
-	margin: 0 0 0 $gutter;
-	box-shadow: $boxShadow;
+	box-shadow: $box-shadow;
 }
 
 .media-content__album-cover {
 	height: 48rem;
 	width: 48rem;
-	box-shadow: $boxShadow;
-	margin: 0 $gutter 0 0;
+	box-shadow: $box-shadow;
 }

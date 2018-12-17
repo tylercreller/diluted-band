@@ -1,9 +1,10 @@
-@import '../../shared/styles/variables';
+@import '../../styles/base/settings';
 
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 5rem;
 }
 
 .header__nav-container {
@@ -11,20 +12,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 $gutter 0 5rem;
 	width: 45rem;
-	a {
-		&:hover {
-			color: $lbRed;
-		}
-		color: white;
-		font-family: 'Josefin Sans', Times, serif;
-		font-size: 2rem;
-		text-decoration: none;
-	}
 }
 
 .header__logo {
 	width: 20rem;
-	padding: 3.5rem 5rem 3.5rem $gutter;
 }

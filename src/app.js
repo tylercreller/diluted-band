@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import Background from './components/Background/Background';
 import BodyContent from './components/BodyContent/BodyContent';
 import 'normalize.css/normalize.css';
-import './shared/styles/_base.scss';
+import './styles/styles.scss';
 
 const Layout = () => (
 	<div>

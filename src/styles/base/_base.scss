@@ -1,0 +1,20 @@
+html {
+	font-size: 62.5%;
+	h1 {
+		font-size: 3.2rem;
+	}
+}
+
+body {
+	background-color: #211f20;
+}
+
+a {
+	&:hover {
+		color: $lb-red;
+	}
+	color: white;
+	font-family: 'Josefin Sans', Times, serif;
+	font-size: 2rem;
+	text-decoration: none;
+}

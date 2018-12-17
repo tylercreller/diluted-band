@@ -1,18 +1,7 @@
-@import '../../shared/styles/mixins';
-@import '../../shared/styles/variables';
+@import '../../styles/base/settings';
 
 .shows {
 	padding-top: 3rem;
 	margin-top: 5rem;
 	padding-bottom: 3rem;
-
-	background-color: black;
-}
-
-.shows__section-header {
-	@include section-header;
-}
-
-.shows__songkick-widget {
-	margin: 0 $gutter;
 }
