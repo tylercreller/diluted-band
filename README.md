@@ -10,7 +10,7 @@ yarn install
 
 #### Developing locally
 
-In your CLI run the follow (order should not matter)
+In your CLI run the following
 
 ```
 yarn run dev-server
