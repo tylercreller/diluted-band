@@ -1,0 +1,11 @@
+.social {
+	// background-color: $lb-red;
+	padding: $m-size 0;
+}
+.social__icons-container {
+	display: flex;
+	justify-content: center;
+}
+.social__icons-container__icon {
+	padding: $m-size;
+}

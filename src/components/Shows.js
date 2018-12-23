@@ -1,5 +1,4 @@
 import React from 'react';
-import './Shows.scss';
 
 const Shows = () => (
 	<div>

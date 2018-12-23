@@ -1,5 +1,4 @@
 import React from 'react';
-import './Social.scss';
 
 const Social = () => (
 	<div>

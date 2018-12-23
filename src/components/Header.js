@@ -1,12 +1,14 @@
 import React from 'react';
-import './Header.scss';
 
 const Header = () => (
 	<div>
 		<div className="container">
 			<div className="header">
-				<div>
-					<img className="header__logo" src={'images/DiludedLogo.png'} />
+				<div className="header__logo-container">
+					<img
+						className="header__logo-container__logo"
+						src={'images/DiludedLogo.png'}
+					/>
 				</div>
 				<div className="header__nav-container">
 					<a href="https://dilutedband.bandcamp.com/merch/">MERCH</a>

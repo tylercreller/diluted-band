@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Background from './components/Background/Background';
-import BodyContent from './components/BodyContent/BodyContent';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Background from './components/Background';
+import BodyContent from './components/BodyContent';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
