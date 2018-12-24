@@ -17,7 +17,6 @@
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
-	min-width: 32rem;
 	iframe {
 		position: absolute;
 		top: 0;
@@ -30,8 +29,6 @@
 .media-content__image {
 	max-width: 48rem;
 	max-height: 48rem;
-	min-width: 32rem;
-	min-height: 32rem;
 
 	height: auto;
 	width: auto;
@@ -49,7 +46,7 @@
 	}
 
 	.media-content__video {
-		margin-bottom: $l-size;
+		margin-bottom: $m-size;
 		margin-right: 0;
 	}
 }

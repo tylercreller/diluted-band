@@ -9,3 +9,19 @@
 .social__icons-container__icon {
 	padding: $m-size;
 }
+
+.social_icons-container__icon__svg {
+	width: 64px;
+	height: 64px;
+}
+
+@media (max-width: $screen-size-wrap) {
+	.social_icons-container__icon__svg {
+		width: 48px;
+		height: 48px;
+	}
+
+	.social__icons-container__icon {
+		padding: $xs-size;
+	}
+}

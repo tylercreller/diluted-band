@@ -3,12 +3,6 @@
 	padding: 0 $gutter;
 }
 
-@media (max-width: 1350px) {
-	.container {
-		padding: 0 $gutter-xs;
-	}
-}
-
 .container--black {
 	background: black;
 }
@@ -29,4 +23,10 @@
 
 .container--black-to-red-fade {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), $lb-red 75%);
+}
+
+@media (max-width: $screen-size-wrap) {
+	.container {
+		padding: 0 $gutter-xs;
+	}
 }

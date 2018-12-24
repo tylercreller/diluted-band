@@ -5,6 +5,10 @@
 	padding-top: $xl-size;
 }
 
+.header__nav-toggle {
+	display: none;
+}
+
 .header__nav-container {
 	text-align: center;
 	display: flex;
@@ -15,8 +19,9 @@
 		&:hover {
 			color: $lb-red;
 		}
+
 		color: white;
-		font-family: 'Josefin Sans', Times, serif;
+		font-family: 'Josefin Sans', sans-serif;
 		font-size: 2rem;
 		text-decoration: none;
 		padding-left: $m-size;
@@ -41,7 +46,38 @@
 	}
 
 	.header__logo-container {
-		margin-bottom: $l-size;
+		margin-bottom: $m-size;
 		margin-right: 0;
+	}
+
+	.header__nav-container {
+		flex-direction: column;
+		width: 100%;
+		display: none;
+
+		> a {
+			font-size: 3rem;
+			padding: $s-size 0 0 0;
+			&:not(:last-child) {
+				padding-right: 0;
+			}
+			// border: 1px solid white;
+			width: 100%;
+		}
+	}
+
+	.header__nav-toggle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+
+		font-size: 3rem;
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	.header__nav-container--toggle-show {
+		display: flex;
 	}
 }
