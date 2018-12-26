@@ -1,7 +1,7 @@
 node_modules
 .vscode/settings.json
-public/*.js
-public/*.js.map
+public/bundle.js
+public/bundle.js.map
 public/*.jpg
-public/*.css
-public/*.css.map
+public/styles.css
+public/styles.css.map
