@@ -1,0 +1,27 @@
+.contact {
+	padding: $m-size 0;
+}
+
+.contact__email {
+	text-align: center;
+}
+
+.contact__email__icon {
+	color: white;
+	margin-right: $s-size;
+}
+
+.contact_email_address {
+	display: inline;
+
+	> a {
+		color: white;
+		font-family: $font-family-minimal;
+		font-size: 2rem;
+		text-decoration: none;
+
+		&:hover {
+			color: $lb-red;
+		}
+	}
+}

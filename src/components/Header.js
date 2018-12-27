@@ -21,12 +21,12 @@ export default class Header extends React.Component {
 							<i className="fa fa-bars" />
 						</div>
 						<div className="header__nav-container">
-							<a href="https://dilutedband.bandcamp.com/merch/">MERCH</a>
+							<a href="https://dilutedband.bandcamp.com/merch/" target="_blank">
+								MERCH
+							</a>
 							<a href="#shows">SHOWS</a>
 							<a href="#social">SOCIAL</a>
-							<a href="mailto:dilutedband1@gmail.com" target="_blank">
-								CONTACT
-							</a>
+							<a href="#contact">CONTACT</a>
 						</div>
 					</div>
 				</div>
