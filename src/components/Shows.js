@@ -4,7 +4,7 @@ const Shows = () => (
 	<div>
 		<div className="container container--black">
 			<div id="shows" className="shows">
-				<h1 className="section-header">Upcoming Shows</h1>
+				<h1 className="section-header shows__section-text">Upcoming Shows</h1>
 				<div className="shows__songkick-widget">
 					<a
 						href="https://www.songkick.com/artists/5656194"

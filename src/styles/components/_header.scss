@@ -22,9 +22,11 @@
 
 		color: white;
 		font-family: $font-family-minimal;
+		font-weight: 400;
+		letter-spacing: 1px;
 		font-size: 2rem;
 		text-decoration: none;
-		padding-left: $m-size;
+		padding-left: $s-size;
 		&:not(:last-child) {
 			padding-right: $m-size;
 		}

@@ -5,7 +5,7 @@
 	right: $m-size;
 	z-index: 99;
 	border: none;
-	border-bottom: 0.3rem solid darken($lb-red, 10%);
+	border-bottom: $red-bezel-effect;
 	outline: none;
 	background-color: $lb-red;
 	color: white;
@@ -13,7 +13,7 @@
 	padding: $xs-size $m-size;
 	border-radius: $xs-size;
 	font-size: $m-size;
-	font-family: $font-family-minimal;
+	font-family: $font-family-edgy2;
 }
 
 #backToTopButton:hover {

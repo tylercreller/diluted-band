@@ -16,9 +16,10 @@
 
 	> a {
 		color: white;
-		font-family: $font-family-minimal;
+		font-family: $font-family-edgy2;
 		font-size: 2rem;
 		text-decoration: none;
+		letter-spacing: 3px;
 
 		&:hover {
 			color: $lb-red;

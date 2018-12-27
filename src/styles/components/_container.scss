@@ -9,6 +9,8 @@
 
 .container--red {
 	background: $lb-red;
+	border-bottom: $red-bezel-effect;
+	border-top: $red-bezel-effect;
 }
 
 .container--transparent-fade {
