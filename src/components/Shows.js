@@ -12,6 +12,7 @@ const Shows = () => (
 						data-theme="dark"
 						data-detect-style="true"
 						data-font-color="#e6e0e0"
+						data-font-family="Josefin Sans"
 						data-background-color="transparent"
 						data-font-size="100%"
 					/>
