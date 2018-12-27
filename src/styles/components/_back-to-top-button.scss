@@ -1,8 +1,8 @@
 #backToTopButton {
 	display: none;
 	position: fixed;
-	bottom: 20px;
-	right: 30px;
+	bottom: $m-size;
+	right: $m-size;
 	z-index: 99;
 	border: none;
 	border-bottom: 0.3rem solid darken($lb-red, 10%);
@@ -10,8 +10,8 @@
 	background-color: $lb-red;
 	color: white;
 	cursor: pointer;
-	padding: 10px 15px;
-	border-radius: 10px;
+	padding: $xs-size $m-size;
+	border-radius: $xs-size;
 	font-size: $m-size;
 	font-family: $font-family-minimal;
 }
