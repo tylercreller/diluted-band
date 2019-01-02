@@ -10,3 +10,10 @@
 .footer__content {
 	padding: $xs-size 0;
 }
+
+.footer__author > a {
+	color: white;
+	&:hover {
+		color: $lb-red;
+	}
+}

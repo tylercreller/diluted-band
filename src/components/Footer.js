@@ -5,7 +5,12 @@ const Footer = () => {
 	return (
 		<div className="footer">
 			<div className="footer__content">
-				<div className="footer__author">Site by Tyler Creller</div>
+				<div className="footer__author">
+					Site by{' '}
+					<a href="https://www.tylercreller.com" target="_blank">
+						Tyler Creller
+					</a>
+				</div>
 				<div>Copyright © {d.getFullYear()} Diluted</div>
 			</div>
 		</div>
