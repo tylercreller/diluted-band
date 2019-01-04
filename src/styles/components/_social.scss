@@ -5,23 +5,36 @@
 .social__icons-container {
 	display: flex;
 	justify-content: center;
+
+	> a {
+		color: black;
+	}
 }
 .social__icons-container__icon {
-	padding: $m-size;
-}
+	border: 5px solid black;
+	border-radius: 100%;
 
-.social_icons-container__icon__svg {
 	width: 64px;
 	height: 64px;
+
+	text-align: center;
+	padding: $xs-size;
+	margin: $xs-size;
+
+	.fab {
+		padding-top: .6rem;
+	}
 }
 
 @media (max-width: $screen-size-wrap) {
-	.social_icons-container__icon__svg {
+	.social__icons-container__icon {
 		width: 48px;
 		height: 48px;
+		
+		.fab {
+			font-size: 4rem !important;
+			padding-top: .3rem;
+		}
 	}
 
-	.social__icons-container__icon {
-		padding: $xs-size;
-	}
 }

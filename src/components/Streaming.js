@@ -2,7 +2,9 @@ import React from 'react';
 
 const Streaming = () => (
 	<div className="streaming">
-		<h1 className="section-header">Available Now</h1>
+		<h1 className="section-header">
+			Latest Album <i>"Legitimate Bastard"</i> out now!
+		</h1>
 		<a href="https://play.google.com/store/music/artist/Diluted?id=A5vybfcdudppw7aubujmwg7yyl4&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
 			<img
 				className="streaming__icon"

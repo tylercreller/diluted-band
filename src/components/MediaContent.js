@@ -17,6 +17,7 @@ const MediaContent = () => (
 					<img
 						className="media-content__image__album-cover"
 						src={'images/lb-album-art-cropped.jpg'}
+						title="New Album 'Legitimate Bastard' out now!"
 					/>
 				</div>
 			</div>
