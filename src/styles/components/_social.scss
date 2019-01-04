@@ -5,6 +5,7 @@
 .social__icons-container {
 	display: flex;
 	justify-content: center;
+	margin: 0.67rem;
 
 	> a {
 		color: black;
@@ -22,7 +23,7 @@
 	margin: $xs-size;
 
 	.fab {
-		padding-top: .6rem;
+		padding-top: 0.6rem;
 	}
 }
 
@@ -30,11 +31,10 @@
 	.social__icons-container__icon {
 		width: 48px;
 		height: 48px;
-		
+
 		.fab {
 			font-size: 4rem !important;
-			padding-top: .3rem;
+			padding-top: 0.3rem;
 		}
 	}
-
 }
