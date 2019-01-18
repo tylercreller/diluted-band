@@ -1,5 +1,5 @@
 # Diluted Band Website
-####  [☛ http://dilutedband.com](http://dilutedband.com) (NOT CURRENTLY LIVE WITH THIS WEBSITE)
+####  [☛ http://dilutedband.com](http://dilutedband.com)
 
 ### Getting Started
 
