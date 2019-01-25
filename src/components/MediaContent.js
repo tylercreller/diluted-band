@@ -6,7 +6,7 @@ const MediaContent = () => (
 				<div className="media-content__video">
 					<div className="media-content__video__container">
 						<iframe
-							src="https://www.youtube.com/embed/7P3wYA4JpAE"
+							src="https://www.youtube.com/embed/rFDT8q5LEDg"
 							frameBorder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowFullScreen
