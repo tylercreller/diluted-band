@@ -26,7 +26,7 @@ export default class BackToTop extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<React.Fragment>
 				<button
 					onClick={this.topFunction}
 					id="backToTopButton"
@@ -35,7 +35,7 @@ export default class BackToTop extends React.Component {
 					<i className="fas fa-arrow-up" />
 					<div className="backToTopButton__text">Top</div>
 				</button>
-			</div>
+			</React.Fragment>
 		);
 	}
 }

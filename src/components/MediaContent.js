@@ -1,6 +1,6 @@
 import React from 'react';
 const MediaContent = () => (
-	<div>
+	<React.Fragment>
 		<div className="container">
 			<div className="media-content">
 				<div className="media-content__video">
@@ -22,7 +22,7 @@ const MediaContent = () => (
 				</div>
 			</div>
 		</div>
-	</div>
+	</React.Fragment>
 );
 
 export default MediaContent;

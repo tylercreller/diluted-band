@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Social = () => (
-	<div>
+	<React.Fragment>
 		<div className="container container--red">
 			<div id="social" className="social">
 				<h1 className="section-header">Follow Us</h1>
@@ -29,7 +29,7 @@ const Social = () => (
 				</div>
 			</div>
 		</div>
-	</div>
+	</React.Fragment>
 );
 
 export default Social;

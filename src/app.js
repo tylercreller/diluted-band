@@ -8,12 +8,12 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 const Layout = () => (
-	<div>
+	<React.Fragment>
 		<Background />
 		<Header />
 		<BodyContent />
 		<Footer />
-	</div>
+	</React.Fragment>
 );
 
 ReactDOM.render(<Layout />, document.getElementById('app'));

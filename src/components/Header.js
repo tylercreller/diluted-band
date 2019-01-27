@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<React.Fragment>
 				<div className="container">
 					<div className="header">
 						<div className="header__logo-container">
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
 						</div>
 					</div>
 				</div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Shows = () => (
-	<div>
+	<React.Fragment>
 		<div className="container container--black">
 			<div id="shows" className="shows">
 				<h1 className="section-header shows__section-text">Upcoming Shows</h1>
@@ -19,7 +19,7 @@ const Shows = () => (
 				</div>
 			</div>
 		</div>
-	</div>
+	</React.Fragment>
 );
 
 export default Shows;

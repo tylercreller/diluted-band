@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => (
-	<div>
+	<React.Fragment>
 		<div className="container container--black">
 			<div id="contact" className="contact">
 				<h1 className="section-header">Contact</h1>
@@ -13,7 +13,7 @@ const Contact = () => (
 				</div>
 			</div>
 		</div>
-	</div>
+	</React.Fragment>
 );
 
 export default Contact;

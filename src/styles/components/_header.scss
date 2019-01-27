@@ -16,6 +16,8 @@
 	align-items: center;
 
 	> a {
+		user-select: none;
+
 		&:hover {
 			color: $lb-red;
 			transform: scale(1.2);
