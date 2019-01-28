@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 
 	navigationEvent = (label) => {
 		if ('ga' in window) {
-			tracker = ga.getAll()[0];
+			const tracker = ga.getAll()[0];
 			if (tracker)
 				tracker.send('event', {
 					eventCategory: 'navigation',
