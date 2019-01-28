@@ -6,6 +6,15 @@ export default class Header extends React.Component {
 		nav.classList.toggle('header__nav-container--toggle-show');
 	};
 
+	navigationEvent = (label) => {
+		ga('send', {
+			hitType: 'event',
+			eventCategory: 'Navigation',
+			eventAction: 'click',
+			eventLabel: label
+		});
+	}
+
 	render() {
 		return (
 			<React.Fragment>
@@ -21,12 +30,12 @@ export default class Header extends React.Component {
 							<i className="fa fa-bars" />
 						</div>
 						<div className="header__nav-container">
-							<a href="https://dilutedband.bandcamp.com/merch/" target="_blank">
+							<a href="https://dilutedband.bandcamp.com/merch/" target="_blank" onClick={this.navigationEvent.bind(this, 'merch')}>
 								MERCH
 							</a>
-							<a href="#shows">SHOWS</a>
-							<a href="#social">SOCIAL</a>
-							<a href="#contact">CONTACT</a>
+							<a href="#shows" onClick={this.navigationEvent.bind(this, 'shows')}>SHOWS</a>
+							<a href="#social" onClick={this.navigationEvent.bind(this, 'social')}>SOCIAL</a>
+							<a href="#contact" onClick={this.navigationEvent.bind(this, 'contact')}>CONTACT</a>
 						</div>
 					</div>
 				</div>
