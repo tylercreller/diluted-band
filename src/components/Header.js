@@ -7,14 +7,9 @@ export default class Header extends React.Component {
 	};
 
 	navigationEvent = (label) => {
-		ga('send', {
-			hitType: 'event',
-			eventCategory: 'Navigation',
-			eventAction: 'click',
-			eventLabel: label,
-			hitCallback: function (resp) {
-				console.log(resp);
-			}
+		gtag('event', 'click', {
+			event_category: 'Navigation',
+			event_label: label
 		});
 	};
 
