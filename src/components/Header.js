@@ -7,11 +7,15 @@ export default class Header extends React.Component {
 	};
 
 	navigationEvent = (label) => {
-		ga('send', 'event', {
-			eventCategory: 'Navigation',
-			eventAction: 'click',
-			eventLabel: label
-		});
+		if ('ga' in window) {
+			tracker = ga.getAll()[0];
+			if (tracker)
+				tracker.send('event', {
+					eventCategory: 'navigation',
+					eventAction: 'click',
+					eventLabel: label
+				});
+		}
 	}
 
 	render() {
