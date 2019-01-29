@@ -8,7 +8,7 @@ export default class Header extends React.Component {
 
 	navigationEvent = (label) => {
 		gtag('event', 'click', {
-			event_category: 'Navigation',
+			event_category: 'Header Navigation',
 			event_label: label
 		});
 	};
