@@ -1,5 +1,5 @@
 .footer {
-	// background-color: $lb-red;
+	// background-color: $un;
 	background-color: #000000;
 	font-family: sans-serif;
 	text-align: center;
@@ -14,6 +14,6 @@
 .footer__author > a {
 	color: white;
 	&:hover {
-		color: $lb-red;
+		color: $un;
 	}
 }

@@ -1,0 +1,48 @@
+.overlay {
+	position: fixed;
+	z-index: 100;
+	overflow: none;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'VT323', consolas;
+	background-color: black;
+	color: yellowgreen;
+	font-size: $l-size;
+}
+
+.overlay__container {
+	height: 75vh;
+	width: 75vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	text-align: center;
+	margin: 0 auto;
+	.block {
+		flex: 1 1 $s-size;
+		padding: 1rem;
+		margin: $m-size;
+	}
+	.block-full {
+		flex: 1 1 100%;
+	}
+	button {
+		font-family: 'VT323', consolas;
+		font-size: $xl-size;
+		background: black;
+		color: white;
+		padding: $m-size;
+		&:hover {
+			background: white;
+			color: black;
+		}
+	}
+}
+@media only screen and (max-width: 50rem) {
+	.overlay__container {
+		button {
+			font-size: $l-size;
+		}
+	}
+}
