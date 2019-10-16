@@ -1,6 +1,8 @@
 // Colors
 $lb-red: #a51d21;
+$un: #584f7e;
 $lb-red-opaque: rgba(78, 14, 16, 0.5);
+$un-opaque: rgba(88, 79, 126, 0.5);
 
 // Sizes
 $xs-size: 1rem;
@@ -17,5 +19,6 @@ $gutter-s: 10%;
 $gutter: 15%;
 $box-shadow: rgba(0, 0, 0, 0.75) 0 1.3rem 5.5rem 2.4rem;
 $red-bezel-effect: 0.3rem solid darken($lb-red, 10%);
+$un-bezel-effect: 0.3rem solid darken($un, 10%);
 $font-family-minimal: 'Josefin Sans', sans-serif;
 $font-family-edgy2: 'Special Elite', sans-serif;
