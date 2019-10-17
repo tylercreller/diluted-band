@@ -7,7 +7,7 @@ import Overlay from './Overlay';
 
 export default class Layout extends React.Component {
 	state = {
-		showMessage: true
+		showMessage: false
 	};
 	hideMessage = () => {
 		document.getElementById('body').classList.remove('noscroll');
@@ -21,14 +21,10 @@ export default class Layout extends React.Component {
 				{this.state.showMessage && (
 					<Overlay hideMessageCallback={this.hideMessage} />
 				)}
-				(
-				<React.Fragment>
-					<Background />
-					<Header />
-					<BodyContent />
-					<Footer />
-				</React.Fragment>
-				)
+				<Background />
+				<Header />
+				<BodyContent />
+				<Footer />
 			</React.Fragment>
 		);
 	}
